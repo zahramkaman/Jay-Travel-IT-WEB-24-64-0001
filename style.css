@@ -1,0 +1,102 @@
+body{
+    font-family:"Poppins", sans-serif;
+  }
+
+/* main */
+  h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .navbar-brand, .nav-home, h2, section h1, .fa-solid {
+          color: #ef5723;
+      }
+  
+  .nav-link:hover{
+    color: #ef5723 !important ;
+  }
+
+  .header-img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+/* stats */
+  .stats h1{
+    font-family:"Tangerine", cursive;
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
+
+/* flex-box */
+  .flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .flex-container div{
+    padding-top: 20px;
+    padding-left:20px;
+    padding-right:20px;
+
+    box-shadow: 5px 5px 5px 5px #cfcfcf;
+  }
+
+  .flex-container p {
+    margin-top: 5px;
+    text-align: center
+  }
+
+/* cards */
+  .card .img-fit-destination{
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    border-radius: 0;
+  }
+
+  .card .img-fit-team{
+    border-radius: 0;
+  }
+
+  .card-title, .card span{
+    color: rgb(21, 130, 207);
+  }
+
+  .card-text{
+    font-weight: 500;
+  }
+  
+  .card-border{
+    border-bottom: 3px solid rgb(21, 130, 207);
+    border-radius: 0;
+  }
+
+/* carousel */
+  .c-item{
+    height: 480px;
+  }
+  .c-image{
+    height: 100%;
+    object-fit: contain;
+    filter: brightness(0.6);
+  }
+
+/* buttons */
+    .btn{
+      background-color: rgb(77, 196, 229);
+      color: white;
+      width: 100%;
+    }
+
+/* footer */
+    .footer-bg{
+      background: rgb(3, 41, 49);
+    }
+
+    
